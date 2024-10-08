@@ -70,22 +70,5 @@ Reads the CSV file with maximum deviations and sends a formatted report via Tele
 - Check Airflow logs for any error messages if the DAG fails.
 - Verify that the Telegram bot has permission to send messages to the specified chat.
 
-# Results
-- DAG view:
-  ![dag_view](https://github.com/user-attachments/assets/87388b76-32bc-46c1-ab15-d8a3b7d8cba1)
-
-- Task logs:
-  - Logs from task 4 which shows the calculated max deviation:
-  ![image](https://github.com/user-attachments/assets/5b81bfcb-4a15-4f4f-ba60-1cc8d538fda0)
-  - Logs from task 5 which confirms that the message was sent successfully:
-  ![image](https://github.com/user-attachments/assets/bee9f2e7-82d8-44c5-a8a6-2be35da50d21)
-
-- CSV file:
-  ![image](https://github.com/user-attachments/assets/23a75c61-3a88-41de-8016-95703dae3b0b)
-
-- Telegram messages:
-  A snippet of the messages received:
-  ![image](https://github.com/user-attachments/assets/34e1b3ee-0d68-4a71-86db-11733c902811)
-
 
 
